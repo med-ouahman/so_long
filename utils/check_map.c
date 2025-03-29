@@ -84,7 +84,6 @@ char	**copy_map(char **map)
 	char			**cpy;
 
 	size = map_size(map);
-	len = ft_strlen(map[0]);
 	cpy = malloc((size + 1) * sizeof(char *));
 	if (!cpy)
 		return (NULL);
