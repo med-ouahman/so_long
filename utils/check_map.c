@@ -79,7 +79,6 @@ unsigned int	count_of(char **map, char c)
 
 char	**copy_map(char **map)
 {
-	size_t			len;
 	size_t			size;
 	unsigned int	i;
 	char			**cpy;
